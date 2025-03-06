@@ -1,36 +1,4 @@
-// أضف هذا الكود مؤقتاً للتشخيص
-document.addEventListener('DOMContentLoaded', function() {
-    // العثور على العناصر الرئيسية والتحقق من حالتها
-    const header = document.querySelector('header');
-    const nav = document.querySelector('nav');
-    const homeSection = document.querySelector('.home');
-    const sections = document.querySelectorAll('section');
-    
-    console.log('Header visible:', header && getComputedStyle(header).display !== 'none');
-    console.log('Nav visible:', nav && getComputedStyle(nav).display !== 'none');
-    console.log('Home section visible:', homeSection && getComputedStyle(homeSection).display !== 'none');
-    console.log('Number of sections:', sections.length);
-    
-    // التحقق من حالة CSS variables
-    const rootStyles = getComputedStyle(document.documentElement);
-    console.log('Primary color used:', rootStyles.getPropertyValue('--primary-color'));
-    
-    // تحقق من سلامة قواعد CSS الـ responsive
-    const mediaQueryList = window.matchMedia('(max-width: 768px)');
-    console.log('Is mobile view:', mediaQueryList.matches);
-    
-    // إضافة تأطير للعناصر المهمة للتحقق من وجودها
-    const importantElements = document.querySelectorAll('header, nav, section, .home, .logo');
-    importantElements.forEach(el => {
-        const originalBorder = el.style.border;
-        el.style.border = '2px solid red';
-        
-        // إعادة الحدود إلى حالتها الأصلية بعد 5 ثوانٍ
-        setTimeout(() => {
-            el.style.border = originalBorder;
-        }, 5000);
-    });
-});
+
 
 // كود مُحسن لقائمة الهامبرجر
 document.addEventListener('DOMContentLoaded', function() {
