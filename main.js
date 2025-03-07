@@ -37,4 +37,147 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+ScrollReveal().reveal('.h1-about' , {
+    delay: 600,
+    duration: 1000,
+    reset: true,
+    origin: 'right',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+
+ScrollReveal().reveal('.description' , {
+    delay: 600,
+    duration: 1000,
+    reset: true,
+    origin: 'left',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.my-skills-content' , {
+    delay: 600,
+    duration: 1000,
+    reset: true,
+    origin: 'left',
+    distance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.h1-skills' , {
+    delay: 600,
+    duration: 1000,
+    reset: true,
+    origin: 'left',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.skills-bars' , {
+    delay: 600,
+    duration: 1000,
+    reset: true,
+    origin: 'rgiht',
+    distance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.service-box-item' , {
+    delay: 600,
+    duration: 1000,
+    reset: true,
+    origin: 'bottom',
+    distance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.h1-contact' , {
+    delay: 600,
+    duration: 1000,
+    reset: true,
+    origin: 'top',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.p-contact' , {
+    delay: 1000,
+    duration: 1000,
+    reset: true,
+    origin: 'left',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.name-input' , {
+    delay: 1000,
+    duration: 1000,
+    reset: true,
+    origin: 'left',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.email-input' , {
+    delay: 1000,
+    duration: 1000,
+    reset: true,
+    origin: 'right',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.message-input' , {
+    delay: 1300,
+    duration: 1000,
+    reset: true,
+    origin: 'bottom',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+ScrollReveal().reveal('.submit-btn' , {
+    delay: 1700,
+    duration: 1000,
+    reset: true,
+    origin: 'bottom',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+
+ScrollReveal().reveal('.home_img' , {
+    delay: 1000,
+    duration: 1000,
+    reset: true,
+    origin: 'right',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
+
+ScrollReveal().reveal('.home_content' , {
+    delay: 1200,
+    duration: 1000,
+    reset: true,
+    origin: 'left',
+    dstance: '50%',
+    opacity: 0,
+    easing: 'ease-in-out'
+})
+
 
